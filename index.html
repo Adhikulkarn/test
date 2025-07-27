@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amulya Events - Wedding Decor & Event Planning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <img src="logo.jpeg" alt="Amulya Events Logo">
+                </div>
+                <div class="logo-text">
+                    <h1>Amulya Events</h1>
+                </div>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>✨ Premium Event Planning</span>
+            </div>
+            <p class="hero-subtitle">Clasy yet affordable</p>
+            <h1 class="hero-title">
+                <span class="gradient-text">Amulya Events</span>
+            </h1>
+            <p class="hero-description">
+                From elegant weddings to vibrant birthday celebrations, we bring your vision to life with our
+                comprehensive event planning and decoration services.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">
+                    <span>Explore Services</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#portfolio" class="btn-secondary">
+                    <i class="fas fa-play"></i>
+                    <span>View Portfolio</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-decorations">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+            <div class="floating-element element-4"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-animate" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Our Expertise</div>
+                <h2 class="section-title">Premium Services</h2>
+                <p class="section-subtitle">Comprehensive event solutions tailored to your needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-service="wedding">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wedding Decor</h3>
+                    <p>Transform your special day with our elegant wedding decoration services, from floral arrangements
+                        to complete venue styling.</p>
+                    <div class="service-hover-overlay">
+                        <span>Explore Wedding Services</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="birthday">
+                    <div class="service-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Birthday Parties</h3>
+                    <p>Create magical birthday celebrations with themed decorations, entertainment, and memorable
+                        experiences for all ages.</p>
+                    <div class="service-hover-overlay">
+                        <span>Plan Birthday Party</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="engagement">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Engagement</h3>
+                    <p>Celebrate your love story with romantic engagement setups that perfectly capture your special
+                        moment.</p>
+                    <div class="service-hover-overlay">
+                        <span>Create Romance</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="photography">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Professional photography services to capture every precious moment and emotion of your special
+                        events.</p>
+                    <div class="service-hover-overlay">
+                        <span>Capture Memories</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="videography">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videography</h3>
+                    <p>Cinematic videography that tells your story beautifully, creating lasting memories you can
+                        treasure forever.</p>
+                    <div class="service-hover-overlay">
+                        <span>Tell Your Story</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="dj">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>DJ Services</h3>
+                    <p>Keep your guests entertained with our professional DJ services, featuring the perfect music for
+                        every occasion.</p>
+                    <div class="service-hover-overlay">
+                        <span>Set the Mood</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-animate" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Our Work</div>
+                <h2 class="section-title">Portfolio Showcase</h2>
+                <p class="section-subtitle">Showcasing our finest work and memorable events</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Wedding Portfolio -->
+                <div class="portfolio-item" data-category="wedding" onclick="window.location.href='./html/wedding.html'">
+                    <div class="portfolio-image">
+                        <img src="./images/wedding.png" class="cover-image" alt="Wedding Decor">
+                        <div class="placeholder-image wedding">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3> WEDDING </h3>
+                        <p>Wedding Decor</p>
+                    </div>
+                </div>
+
+                <!-- Birthday and Party Portfolio -->
+                <div class="portfolio-item" data-category="birthday" onclick="window.location.href='./html/birthday.html'">
+                    <div class="portfolio-image">
+                        <img src="./images/birthday.jpeg" class="cover-image" alt="Birthday Celebration">
+                        <div class="placeholder-image birthday">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>BIRTHDAY CELEBRATION</h3>
+                        <p>Theme Party</p>
+                    </div>
+                </div>
+
+                 <!-- Traditional Portfolio -->
+                <div class="portfolio-item" data-category="traditional" onclick="window.location.href='./html/treditional.html'">
+                    <div class="portfolio-image">
+                        <img src="./images/treditional.png" class="cover-image" alt="Traditional Decor">
+                        <div class="placeholder-image traditional">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>TRADITIONAL EVENT</h3>
+                        <p>Traditional Decor</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-animate" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-tag">About Us</div>
+                    <h2 class="section-title">Amulya Events</h2>
+                    <p class="about-description">
+                        With years of experience in event planning and decoration, Amulya Events has established itself
+                        as a trusted name in creating memorable celebrations. We specialize in transforming ordinary
+                        spaces into extraordinary experiences.
+                    </p>
+                    <p class="about-description">
+                        Our team of creative professionals is dedicated to bringing your vision to life, whether it's an
+                        intimate engagement, a grand wedding, or a fun birthday party. We handle every detail with
+                        precision and care.
+                    </p>
+                    <p class="about-description highlight">
+                        If you are looking for budget-friendly and affordable options for your special events, then you
+                        are in the right place. We provide the most affordable packages in the present market and have
+                        experience of more than 2 years.
+                    </p>
+                    <p class="about-cta">So what are you waiting for?</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="500">100+</div>
+                            <div class="stat-label">Events Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="5">15+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="./logo.jpeg" alt="About Amulya Events">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-animate" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Connect</div>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Connect with us for your next memorable event</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-social">
+                    <div class="contact-item">
+                        <a href="tel:+919876543210" class="contact-link">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Call Us</span>
+                                <span class="contact-value">+91 98765 43210</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="mailto:yamulyay@gmail.com" class="contact-link">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email Us</span>
+                                <span class="contact-value">yamulyay@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://instagram.com/amulyaevents" class="contact-link" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Follow Us</span>
+                                <span class="contact-value">@amulyaevents</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <img src="logo.jpeg" alt="Amulya Events Logo">
+                        </div>
+                        <div class="logo-text">
+                            <h3>Amulya Events</h3>
+                        </div>
+                    </div>
+                    <p>Creating unforgettable memories through exceptional event planning and decoration services.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/amulyaevents" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="tel:+919876543210">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:info@amulyaevents.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Wedding Decor</a></li>
+                        <li><a href="#services">Birthday Parties</a></li>
+                        <li><a href="#services">Engagement</a></li>
+                        <li><a href="#services">Photography</a></li>
+                        <li><a href="#services">Videography</a></li>
+                        <li><a href="#services">DJ Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope"></i> info@amulyaevents.com</li>
+                        <li><i class="fas fa-location-dot"></i> Bengaluru, Karnataka</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Amulya Events. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
