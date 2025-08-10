@@ -5,17 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializePortfolio() {
-    // Filter functionality
-    initializeFilters();
+
     
     // Mobile menu
     initializeMobileMenu();
     
-    // Load more functionality
-    initializeLoadMore();
-    
-    // Smooth animations
-    initializeAnimations();
 }
 
 // Filter System
